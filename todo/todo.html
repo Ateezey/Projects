@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Listerino</title>
+	<meta charset="utf-8" />
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>   <style>
+   label{display:inline-block;width:80px; vertical-align:top;margin-bottom:10px;}
+    input,textarea{width:200px;}
+    .field{background-color:#ffc266; border-radius:5px;width:40%;float:left;padding-left:5%;  box-shadow: 10px 10px 5px #888888;}
+    .select{background-color:#ffc266;border-radius:5px;width:40%;float:right;padding-left:5%;padding-bottom:16.15%;  box-shadow: 10px 10px 5px #888888;}
+    .todo{background-color:#ffc266;border-radius:5px;padding:2%; box-shadow: 10px 10px 5px #888888;}
+    #remove{visibility:hidden;}
+    hr{padding:1%;}
+    select{width:40%;}
+   </style>
+</head>
+<body>
+    <header></header>
+    <div class="container">
+        <div class="todo"><center><h1>To Do List</h1></center></div>
+        <hr>
+            <div class="field" >
+                <form  id="form1">
+                    <fieldset>
+                        <h2>Create Task</h2>
+                        <br>
+                        <label>Datum</label><input id="today" name="today" disabled /><br />
+                        <label>Bäst före</label><input type="date" id="lastDate" name="lastDate" /><br />
+                        <label>Rubrik</label><input id="group" name="group" /><br />
+                        <label>To Do</label><textarea id="todo" name="todo"></textarea><br />
+
+                        <label>Prio</label><input id="prio" name="prio" type="number" min="1" max="3" /><br />
+                        <label>Klar</label><input style="width:30px;" id="check" name="check" type="checkbox" />
+                        <button id="spara" type="Submit">Spara</button><button id='remove' type="button">Remove</button> <button class="btn btn-link" type="reset">Clear</button>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="select">
+            <h2>Select Task</h2>
+            <br>
+                <select id="select"></select>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
