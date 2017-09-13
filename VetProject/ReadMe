@@ -1,6 +1,6 @@
 ####READ ME####
 
-Enter the UI folder in Vet/userinterface/
+Enter the UI folder in VetProject/UI
 NPM Install
 NPM Start
 Will be available at localhost:3000
