@@ -5,17 +5,20 @@ NPM Install
 NPM Start
 Will be available at localhost:3000
 
-The Front page is outside React and can be accesed by checking the vetstart folder
+The Front page is outside React and can be accesed by checking the vetstart folder.
 
-Things that are done:
+Things that are completed:
 * Front page
 * Front page responsiveness
 * UI layout for the people logged in
 * Login Security
 
-Things that are not completed
+Things that are incomplete
 * Api connectivity, Currently using a test API to log in.
 * UI responsiveness
 * Booking
-* Payment
+
+Things that have yet to start
+*Videocall service
+*Payment
 ####END  ####
