@@ -1,0 +1,21 @@
+####READ ME####
+
+Enter the UI folder in Vet/userinterface/
+NPM Install
+NPM Start
+Will be available at localhost:3000
+
+The Front page is outside React and can be accesed by checking the vetstart folder
+
+Things that are done:
+* Front page
+* Front page responsiveness
+* UI layout for the people logged in
+* Login Security
+
+Things that are not completed
+* Api connectivity, Currently using a test API to log in.
+* UI responsiveness
+* Booking
+* Payment
+####END  ####
